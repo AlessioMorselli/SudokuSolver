@@ -23,7 +23,7 @@ class UI():
     def _waiting(self):
         self._clear()
 
-        Label(self._current_frame, text="Sto calcolando il risultato...").grid(row = 0)
+        Label(self._current_frame, text="I am resolving a sudoku...").grid(row = 0)
 
         self._filler(1, 1)
 
